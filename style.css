@@ -141,3 +141,6 @@ body{
 .title{
     font-size: larger;
 }
+.inside{
+	display: none;
+}
