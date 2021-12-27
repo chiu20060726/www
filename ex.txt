@@ -1,0 +1,9 @@
+html區塊
+<button class="b" id="o"></button>
+<div class="inside" id="">
+<button id="c">關閉</button>
+</div>
+
+js下拉收回
+$(document).ready(function(){$("#o").click(function(){$("#").slideDown("slow")})})
+$(document).ready(function(){$("#c").click(function(){$("#").slideUp("slow")})})
