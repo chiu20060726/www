@@ -12,7 +12,9 @@ html{
 	background-color: black;
 	text-align: center;
 }
-
+button{
+	cursor: pointer;
+}
 .b{
 	background-color: burlywood;
 	cursor: pointer;
