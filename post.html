@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="js.js"></script>
+<link rel="stylesheet" href="style.css">
+<style>
+
+</style>
+<meta charset="utf-8">
+<title>胖子的個人網站</title>
+<script>
+// 上滑
+
+    $(function(){
+        $('#BackTop').click(function(){ 
+            $('html,body').animate({scrollTop:0}, 333);
+        });
+        $(window).scroll(function() {
+            if ( $(this).scrollTop() > 1 ){
+                $('#BackTop').fadeIn(222);
+            } else {
+                $('#BackTop').stop().fadeOut(222);
+            }
+        }).scroll();
+    });
+// 開啟收回
+
+</script>
+</script>
+</head>
+<body>
+<div class="in">
+<!-- 上面的東西 -->
+<div class="title" style="background-color: springgreen;";>
+
+<a href="index.html"><p>胖子の混沌邏輯小領域</p></a>
+</div>
+<!-- 上面的東西 結束 -->
+<button id="o">展開</button>
+<p></p>
+<div class="inside" id="">
+<button id="c">關閉</button>
+</div>
+
+
+<!-- 下方的東西 -->
+
+<button type="button" id="BackTop" class="toTop-arrow"></button>
+<div class="down">
+胖子的個人網站<br>2022/01開始架設<br>於github page架設<br>© 2022 胖子<br>
+</div>
+<!-- 下方的東西 結束 -->
+</div>
+</body>
+</html>
