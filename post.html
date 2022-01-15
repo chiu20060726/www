@@ -5,7 +5,19 @@
 <script src="js.js"></script>
 <link rel="stylesheet" href="style.css">
 <style>
-
+.space{
+    background-color: tomato;
+}
+.index{
+    background-color: yellow;
+}
+.no{
+    font-size: 50px;
+}
+.sub{
+    font-weight: 900;
+    font-size: 80px;
+}
 </style>
 <meta charset="utf-8">
 <title>胖子的個人網站</title>
@@ -25,8 +37,8 @@
         }).scroll();
     });
 // 開啟收回
-
-</script>
+$(document).ready(function(){$("#o1").click(function(){$("#1").slideDown("slow")})})
+$(document).ready(function(){$("#c1").click(function(){$("#1").slideUp("slow")})})
 </script>
 </head>
 <body>
@@ -37,13 +49,28 @@
 <a href="index.html"><p>胖子の混沌邏輯小領域</p></a>
 </div>
 <!-- 上面的東西 結束 -->
-<button id="o">展開</button>
-<p></p>
-<div class="inside" id="">
-<button id="c">關閉</button>
+<div class="index">
+<button id="o1">展開</button>
+<p class="no">混沌邏輯#1</p>
+<p>by 胖子</p>
+<p class="sub">為什麼任何數字的0次方為1而不是0</p>
+<p class="tag">#數學#指數</p>
+<div class="inside" id="1">
+ 
+已知指數的加法為兩個相同底數的數字(例2²跟2³)相乘<br>
+2²×2³=2⁵<br>
+<br>
+相反的，減法就是相同底數的數字相除(例2³跟2²)<br>
+2³÷2²=2¹<br>
+<br>
+2⁰可視為2²÷2²<br>
+2²÷2²=4÷4=1<br>
+<br>
+因此，任何數的0次方為1<br>
+<button id="c1">關閉</button>
 </div>
-
-
+</div>
+<div class="space"><br></div>
 <!-- 下方的東西 -->
 
 <button type="button" id="BackTop" class="toTop-arrow"></button>
