@@ -11,9 +11,14 @@
 html{
 	background-color: black;
 	text-align: center;
+	color: azure;
 }
 button{
 	cursor: pointer;
+}
+a{
+	text-decoration: none;
+	color: lightpink;
 }
 .b{
 	background-color: burlywood;
